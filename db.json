@@ -1,9 +1,108 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "usuario": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "AdminTest",
+      "nome": "Admin"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "estoque": [
+    {
+      "descricao": "Luva de procedimento descartável, tamanho médio.",
+      "quantidade": 5,
+      "preco": 36,
+      "nome": "Luva de Procedimento",
+      "imagemUrl": "../assets/clinica.jpg",
+      "id": "100001"
+    },
+    {
+      "id": "100002",
+      "nome": "Resina Composta Nanohíbrida",
+      "quantidade": 2,
+      "preco": 15,
+      "descricao": "Resina composta para restaurações, tom A2.",
+      "imagemUrl": "../assets/clinica.jpg"
+    },
+    {
+      "id": "100003",
+      "nome": "Broca Carbide FG",
+      "quantidade": 2,
+      "preco": 15,
+      "descricao": "Broca de alta performance para uso em turbina.",
+      "imagemUrl": "../assets/clinica.jpg"
+    },
+    {
+      "id": "100004",
+      "nome": "Anestésico Lidocaína 2%",
+      "quantidade": 2,
+      "preco": 15,
+      "descricao": "Cartucho de anestésico odontológico sem vasoconstritor.",
+      "imagemUrl": "../assets/clinica.jpg"
+    },
+    {
+      "id": "100005",
+      "nome": "Algodão Rolo Nº 2",
+      "quantidade": 2,
+      "preco": 15,
+      "descricao": "Algodão em rolo para procedimentos odontológicos.",
+      "imagemUrl": "../assets/clinica.jpg"
+    },
+    {
+      "id": "100006",
+      "nome": "Kit de Matrizes Tofflemire",
+      "quantidade": 2,
+      "preco": 15,
+      "descricao": "Kit com matrizes de aço inoxidável para restauração.",
+      "imagemUrl": "../assets/clinica.jpg"
+    },
+    {
+      "descricao": "Sugador descartável para procedimentos clínicos.",
+      "quantidade": 2,
+      "preco": 15,
+      "nome": "Sugador Desc. Flexível",
+      "imagemUrl": "../assets/clinica.jpg",
+      "id": "100007"
+    },
+    {
+      "descricao": "Solução para bochecho pré-procedimento.",
+      "quantidade": 2,
+      "preco": 0,
+      "nome": "Clorexidina 0.12%",
+      "imagemUrl": "./",
+      "id": "100008"
+    },
+    {
+      "id": "100009",
+      "quantidade": 2,
+      "preco": 0,
+      "imagemUrl": "./",
+      "nome": "Escova Profilática",
+      "descricao": "Escova de nylon para profilaxia dentária."
+    },
+    {
+      "id": "100010",
+      "quantidade": 2,
+      "preco": 0,
+      "imagemUrl": "./",
+      "nome": "Fio Retrator Gengival",
+      "descricao": "Fio de algodão para retração gengival."
+    },
+    {
+      "id": "100011",
+      "quantidade": 3,
+      "preco": 0,
+      "imagemUrl": "./",
+      "nome": "Espátula de Inserção",
+      "descricao": "Instrumento para inserção de resinas e cimentos."
+    },
+    {
+      "id": "100012",
+      "quantidade": 1,
+      "preco": 23,
+      "imagemUrl": "./",
+      "nome": "Jato de Bicarbonato",
+      "descricao": "Pó de bicarbonato para polimento dentário."
+    }
+  ]
 }
